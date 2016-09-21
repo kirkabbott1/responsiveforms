@@ -1,0 +1,15 @@
+.form-action {
+  background: rgb(102, 122, 168);
+}
+.form-group {
+  padding: 30px;
+}
+.submit {
+  padding-bottom: 40px;
+}
+.container-fluid {
+  background: rgb(19, 101, 101);
+}
+.password {
+  padding: 0 200px;
+}

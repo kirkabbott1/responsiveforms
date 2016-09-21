@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="no title">
+  <title>PHP bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2">
+
+
+      <form action="submit.php" class="form-action" method="post">
+        <div class="form-group">
+          <label>What's your name?</label>
+          <input class="form-control" type="text" name="name" value="" placeholder="ie. John Doe">
+        </div>
+        <div class="form-group">
+
+          <label>Gender</label>
+          <div class="radio">
+            <label>
+
+              <input type="radio" name="gender" value="male">
+              Male
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+
+              <input type="radio" name="gender" value="female">
+              Female
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input class="password form-control" type="password" name="password">
+        </div>
+        <div class="form-group">
+          <label>Check all the foods that are yummy</label>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="tacos" value="Yes">
+              Tacos
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+
+              <input type="checkbox" name="fried rice" value="Yes">
+              Fried rice
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+
+              <input type="checkbox" name="catfish" value="Yes">
+              catfish
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+
+              <input type="checkbox" name="sammaches" value="Yes">
+              sammaches
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+
+              <input type="checkbox" name="Burgers" value="Yes">
+              Burgers
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Which operating system do you use?</label>
+          <select class="form-control" name="os">
+            <option value="osx">OS X</option>
+            <option value="Windows">Windows</option>
+            <option value="linux">Linux</option>
+            <option value="plan9">Plan9</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Do you have any question?</label>
+          <textarea class="form-control" name="questions" rows="8" cols="40"></textarea>
+        </div>
+        <div class="submit form-group">
+          <button type="submit" name="button">Submit</button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
